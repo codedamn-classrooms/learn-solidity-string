@@ -13,5 +13,14 @@ module.exports = {
   },
 
   // Configure your compilers
-  compilers: {},
+ compilers: {
+        solc: {
+            version: "native",
+            settings: {
+                optimizer: {
+                    enabled: false
+                }
+            }
+        }
+    },
 };
