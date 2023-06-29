@@ -1,0 +1,2 @@
+tabs: ['contracts/String.sol']
+terminals: ['yarn install']
